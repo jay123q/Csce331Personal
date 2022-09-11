@@ -9,6 +9,8 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: "+20";
   overflow: hidden;
+  margin : 0 ;
+  padding: 0;
 }
 .divDefaultQual { 
   /* https://www.w3docs.com/snippets/html/how-to-force-the-content-of-the-div-element-to-stay-on-the-same-line.html */
@@ -21,6 +23,8 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: "+20";
   overflow: hidden;
+  margin : 0px ;
+  padding: 0px ;
 }
 h3 {
   background-color: rgb(156, 202, 238);
@@ -35,6 +39,8 @@ font-size: 17;
   width: 100%;
   height: 100%;
   background-image: url(background.png);
+  margin : 0px ;
+  padding: 0px ;
 }
 .circle {
   background-image: url(joshDogHeadshotResize1.jpg);
@@ -76,13 +82,16 @@ font-size: 17;
   /* background-color: rgb(255, 255, 255); */
   /* margin: 10;
   padding: 1; */
-  border: 1px solid black;
   font-family: 'Times New Roman', Times, serif;
   font-size: "+20";
   color: white;
   overflow: hidden;
+  margin : 0px ;
+  padding: 0px ;
 }
-
+body {
+  background-color: rgb(156, 202, 238);
+}
 /* .divDefautIndex
 {
   background-image: url(joshJumpClimb.png);
