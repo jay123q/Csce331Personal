@@ -20,7 +20,7 @@ function cssPicker()
 window.onload = function() {
     if(localStorage.getItem("style") === null)
         {
-        document.getElementById("style").href = "CssButton.css";
+        document.getElementById("style").href = "ButtonHtml.css";
         }
     else
     {
